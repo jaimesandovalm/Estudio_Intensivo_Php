@@ -48,3 +48,8 @@ let resultado7 = Math.min(3, 5, 1, 8)/**Selecciona el valor minimo */
 let resultado8 = Math.max(3, 5, 1, 8)/**Selecciona el valor maximo */
 
 console.log(resultado)
+
+/**Orden que se ejecutan las operaciones matematicas */
+
+let resultado99 = 20 + 30 * 2 /**El orden por defecto son las multiplicaciones antes q la suma */
+let resultado98 = (20 + 30) * 2/**Personalizar el orden */
