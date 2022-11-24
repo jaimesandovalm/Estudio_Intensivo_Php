@@ -53,3 +53,16 @@ console.log(resultado)
 
 let resultado99 = 20 + 30 * 2 /**El orden por defecto son las multiplicaciones antes q la suma */
 let resultado98 = (20 + 30) * 2/**Personalizar el orden */
+
+
+/**Incremento */
+
+let variableIncrementada = 10
+
+variableIncrementada++
+
+variableIncrementada += 10 /**Va incrementado de acuerdo al valor */
+
+/**Decremento */
+
+variableIncrementada--
