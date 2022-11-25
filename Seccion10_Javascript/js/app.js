@@ -66,3 +66,13 @@ variableIncrementada += 10 /**Va incrementado de acuerdo al valor */
 /**Decremento */
 
 variableIncrementada--
+
+/**Concatenacion */
+
+const nombre = 'Jaime'
+const apellido = 'Sandoval'
+
+console.log("Nombre: " + nombre + " " + "Apellido: " + apellido)
+
+/**template strings */
+console.log(`Nombre: ${nombre} Apellido: ${apellido}`)
