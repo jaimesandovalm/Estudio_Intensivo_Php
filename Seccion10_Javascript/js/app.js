@@ -76,3 +76,11 @@ console.log("Nombre: " + nombre + " " + "Apellido: " + apellido)
 
 /**template strings */
 console.log(`Nombre: ${nombre} Apellido: ${apellido}`)
+
+/**Booleanos */
+
+const h1 = true
+const h2 = false
+
+console.log(h1)
+console.log(h2)
