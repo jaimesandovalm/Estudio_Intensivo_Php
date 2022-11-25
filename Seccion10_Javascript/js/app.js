@@ -84,3 +84,19 @@ const h2 = false
 
 console.log(h1)
 console.log(h2)
+
+/**Objetos */
+
+const producto = {
+    NombreProducto: "Pantalla LCD",
+    Precio: 300,
+    Cantidad: 2
+}
+
+console.log(producto)
+
+/**Acceder a un elemento */
+console.log(producto.NombreProducto)
+
+/**Otra forma de acceder a un elemento */
+console.log(producto["Precio"])
