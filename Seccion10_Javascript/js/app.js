@@ -106,3 +106,14 @@ producto.imagen = "imagen.jpg"
 
 /**Eliminar Propiedades */
 delete producto.Cantidad
+
+/**Pasar la informacion de un objeto a una variable */
+
+//Forma anterior
+const PrecioProducto = producto.Precio
+const NombreProducto = producto.NombreProducto
+
+
+//destructuring objetc
+const { Precio } = producto
+const { NombreProducto } = producto
