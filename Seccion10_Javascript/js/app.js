@@ -100,3 +100,9 @@ console.log(producto.NombreProducto)
 
 /**Otra forma de acceder a un elemento */
 console.log(producto["Precio"])
+
+/**Agregar propiedades */
+producto.imagen = "imagen.jpg"
+
+/**Eliminar Propiedades */
+delete producto.Cantidad
