@@ -117,3 +117,28 @@ const NombreProducto = producto.NombreProducto
 //destructuring objetc
 const { Precio } = producto
 const { NombreProducto } = producto
+
+/**
+ * Frezer: restriccion total
+ * 
+ * seal: restringe el agregar o eliminar una propiedad del objeto, pero si permite modificar un valor
+ * 
+ */
+
+/**Unir objetos */
+
+const Auto = {
+    Marca: "Chevrolet",
+    Modelo: "Sail",
+    Año: 2021
+}
+
+const consecionario = {
+    Direccion: "Violeta parra",
+    Numero: 1858,
+    Comuna: "La Pintana"
+}
+
+const Nuevoauto = { ...Auto, ...consecionario }
+
+console.log(Nuevoauto)
