@@ -5,3 +5,13 @@ function Sumar() {
 }
 
 Sumar()
+
+/**Metodos de Propiedad */
+
+const reproductor = {
+    reproducir: function () {
+        console.log('Reproducir Cancion')
+    }
+}
+
+reproductor.reproducir()
