@@ -15,3 +15,10 @@ const reproductor = {
 }
 
 reproductor.reproducir()
+
+/**Arrow functions */
+
+const restar = (n1, n2) => console.log(n1 + n2)
+
+
+restar(5, 10)
