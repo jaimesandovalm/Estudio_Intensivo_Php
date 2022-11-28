@@ -36,3 +36,13 @@ do {
 
     i++
 } while (i < 100)
+
+/**ForEach */
+/**Solo imprimir */
+auto.forEach(function (chevrolet) {
+    console.table(chevrolet)
+})
+
+/**map */
+/**Crear nuevo arreglo */
+auto.map(chevrolet => console.log(chevrolet))
