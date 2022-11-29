@@ -1,7 +1,7 @@
 /**Try catch */
 
 const numero1 = 20
-const numero2 = 30
+const numero3 = 30
 
 
 console.log(numero1)
