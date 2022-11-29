@@ -34,3 +34,7 @@ window.addEventListener('load', function () {
 document.addEventListener('DOMContentLoaded', function () {
     console.log(7)
 })//Espera a q se descargue el HTML
+
+
+//Eventos de los input y textarea
+
